@@ -1,0 +1,138 @@
+.main-feature-page{
+    width: 100%;
+    margin:0 0 8rem 0;
+    background: #EFE9E1;
+}
+
+.main-feature-page-wrapper{
+    padding: 4rem 0;
+    width: 90%;
+    margin: auto;
+}
+
+.main-feature-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.main-feature-content p{
+    color: #434343;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+}
+.main-feature-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+.main-feature-btn button{
+    border-radius: 10px;
+    background: #7D2166;
+    padding: 1rem 4rem;
+    border: 1px solid transparent;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+    width: 40%;
+    cursor: pointer;
+  
+  }
+
+  .have-questions {
+    margin: 4rem auto;
+    width: 90%;
+  }
+  
+  .have-questions-wrapper {
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(204, 204, 204, 0.1),
+      0px 11px 23px 0px rgba(204, 204, 204, 0.1),
+      0px 42px 42px 0px rgba(204, 204, 204, 0.09),
+      0px 95px 57px 0px rgba(204, 204, 204, 0.05),
+      0px 169px 68px 0px rgba(204, 204, 204, 0.01),
+      0px 264px 74px 0px rgba(204, 204, 204, 0);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .have-questions-content {
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .have-questions-icon {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .have-questions-text h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 25px; */
+    margin-bottom: 2rem;
+  }
+  .have-questions-text p {
+    color: #434343;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .have-questions-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .have-questions-button button {
+    border-radius: 8px;
+    background: #7D2166;
+    padding: 1rem 3rem;
+    border: 1px solid transparent;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 780px) {
+
+  .have-questions-content{
+    width:100%;
+    padding:3rem;
+  }
+}

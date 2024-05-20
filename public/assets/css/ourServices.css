@@ -1,0 +1,249 @@
+.what-we-offer{
+  width: 100%;
+  margin: 8rem 0;
+}
+
+.what-we-offer-wrapper{
+  width: 80%;
+  margin: auto;
+}
+
+
+
+.what-we-offer-bottom {
+    margin-top: 6rem;
+  }
+  
+.what-we-offer-wrapper .section-top h1{
+  font-size: 25px;
+}
+
+.what-we-offer-wrapper .section-top p{
+  font-size: 16px;
+}
+
+.why-partnering-with-us-content p{
+  font-size: 16px;
+  line-height: 27px;
+}
+
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 2rem;
+}
+  
+  .services-card {
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(204, 204, 204, 0.1),
+      0px 11px 23px 0px rgba(204, 204, 204, 0.1),
+      0px 42px 42px 0px rgba(204, 204, 204, 0.09),
+      0px 95px 57px 0px rgba(204, 204, 204, 0.05),
+      0px 169px 68px 0px rgba(204, 204, 204, 0.01),
+      0px 264px 74px 0px rgba(204, 204, 204, 0);
+    margin-bottom: 1rem;
+  }
+  
+  .services-card-wrapper {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    height: 90%;
+  }
+  
+  .services-card-text h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 2rem;
+  }
+  
+  .services-card-icon img {
+    width: 40px;
+    height: 40px;
+    margin-top: 1.5rem;
+    transition: 0.3s;
+  }
+
+  .services-card-icon img:hover {
+    width: 50px;
+    height: 50px;
+  }
+
+  
+  .services-card-text p {
+    color: #434343;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+
+  .why-we-stand-out{
+    width: 100%;
+    background: rgba(222, 213, 195, 0.50);
+    position: relative;
+  }
+
+  .why-we-stand-out-wrapper{
+    padding: 3rem 0;
+    width: 90%;
+    margin: auto;
+
+  }
+
+  .why-we-stand-out-wrapper .section-top h1{
+    font-size: 25px;
+  }
+  
+  .why-we-stand-out-wrapper .section-top p{
+    font-size: 16px;
+  } 
+
+
+  .why-we-stand-out-bottom{
+    position: relative;
+    margin:0rem 0;
+ 
+    display: flex;
+    gap:4rem;
+  }
+  .why-we-stand-out-left{
+    position: relative;
+    flex-basis: 50%;
+  }
+  .why-use-our-network-right{
+    flex-basis: 45%;
+  }
+  .why-use-img-1{
+    position: absolute;
+    top: -15%;
+    right: 0;
+    width: 45%;
+    z-index: 2;
+  }
+  .why-use-img-2{
+    position: relative;
+    width: 75%;
+  }
+  
+  .network-section-header h1 {
+    color: #000;
+    font-family: "Lato";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .why-use-our-network-section-p p{
+    color: #434343;
+    font-family: "Lato";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; 
+  
+  }
+  
+  .about-us-pink{
+    margin:  1rem 0;
+  }
+  
+  .about-us-pink h4{
+    color: #E9108D;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .check-info{
+    display: flex;
+    gap:1rem;
+    margin: 1.5rem 0;
+  }
+  
+  .check-info h4{
+    color: #434343;
+    font-family: "Lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:24.4px;
+  }
+
+
+
+  @media (max-width: 1000px) {
+    .why-we-stand-out-bottom {
+      flex-direction: column;
+      margin:1rem 0;
+    }
+  }
+
+
+
+
+
+  @media (max-width: 500px) {
+    .services-card {
+      width: 250px;
+      height: 280px;
+      margin-bottom: 0rem;
+    }
+
+    .what-we-offer-wrapper .section-top h1{
+      font-size: 30px;
+    }
+    
+    .what-we-offer-wrapper .section-top p{
+      font-size: 18px;
+    }
+
+  .why-partnering-with-us-content p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .services-card-text h1 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .services-card-icon img {
+    /* width: 10px;
+    height: 10px; */
+    margin-top: 2rem;
+  }
+
+  .why-partnering-with-us-content ul li {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .why-we-stand-out-bottom {
+    flex-direction: column;
+  }
+
+  .what-we-offer {
+    margin: 3rem 0;
+  }
+
+  }

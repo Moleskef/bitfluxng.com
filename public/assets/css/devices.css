@@ -1,0 +1,94 @@
+.bitflux-devices-main{
+    width: 100%;
+    margin: 8rem 0;
+}
+
+.bitflux-devices-wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+.bitflux-device-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.bitflux-device-content,
+.bitflux-device-image{
+    flex-basis: 50%;
+}
+
+.bitflux-device-image{
+    display: flex;
+    align-items: center;
+}
+
+.bitflux-device-image img{
+    width: 70%;
+}
+
+
+.bitflux-device-info p{
+    color: #434343;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.bitflux-device-info ol li{
+    color: #434343;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; 
+    margin-left: 1.5rem;
+}
+
+.buy-now-btn{
+    display: flex;
+    margin-top: 3rem;
+}
+  .buy-now-btn button{
+    border-radius: 10px;
+    background: #7D2166;
+    padding: 1rem 4rem;
+    border: 1px solid transparent;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+    width: 40%;
+  
+  }
+  
+
+  @media (max-width: 820px) {
+    .bitflux-device-section{
+        flex-direction: column-reverse;
+    }
+
+  }
+
+  @media (max-width: 500px) {
+    .buy-now-btn button{
+        width: 80%;
+    }
+    .bitflux-device-info p,
+    .bitflux-device-info ol li {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+  }

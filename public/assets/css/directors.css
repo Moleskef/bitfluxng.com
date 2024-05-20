@@ -1,0 +1,87 @@
+.directors-main-page{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.directors-main-page-wrapper{
+    width: 80%;
+    margin: auto;
+}
+.director-info{
+    width: 75%;
+    margin: auto;
+    /* margin: 6rem 0; */
+}
+.director-info-content p{
+    color: #434343;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.section-header h1{
+    margin: 0rem 0rem;
+}
+
+.page-header-content h1{
+    font-family: "Lato";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.director-profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.director-profile-photo img{
+    width: 35%;
+}
+
+
+@media (max-width: 600px) {
+    .director-info-content p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .director-profile-photo img{
+        width: 55%;
+    }
+
+    /* .page-header-wrapper{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    } */
+
+    .section-header h1{
+        color: #000;
+        font-family: "Lato";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+    }
+
+    .page-header-content h1{
+        font-family: "Lato";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        text-align: center;
+        margin: 0rem 0;
+        margin-top: 1rem;
+    }
+}

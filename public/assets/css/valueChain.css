@@ -1,0 +1,14 @@
+.value-chain-page{
+    width: 100%;
+    margin: 8rem 0;
+}
+.value-chain-page-wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+.value-chain-img{
+    display: flex;
+    justify-content: center;
+    margin: 6rem 0;
+}

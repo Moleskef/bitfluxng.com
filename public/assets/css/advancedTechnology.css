@@ -1,0 +1,191 @@
+.what-is-lte-advanced{
+    width: 100%;
+    margin: 8rem 0;;
+}
+
+.what-is-lte-advanced-wrapper{
+    width: 80%;
+    margin: auto;
+}
+.advanced-section-header{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.advanced-section-header h1{
+    color: #000;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* br {
+    display: none;
+} */
+
+.what-is-lte-advanced-content p{
+    color: #434343;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.how-does-lte-advanced-work{
+    width: 100%;
+    margin: 4rem 0;
+}
+.how-does-lte-advanced-work-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.how-does-lte-advanced-work-bottom{
+    display: flex;
+    justify-content: center;
+}
+.how-does-lte-advanced-work-left{
+    flex-basis: 50%;
+    background: #D2D3D5;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.how-does-lte-advanced-work-left img{
+  width:80%;
+  height: auto;
+}
+.how-does-lte-advanced-work-right{
+    flex-basis: 50%;
+    background: #EFE9E1;
+    padding: 2rem 2rem;
+}
+
+.how-does-lte-advanced-work-content p{
+    color: #434343;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.when-will-it-come-to-nigeria{
+    width: 100%;
+    margin: 6rem 0;;
+}
+
+.when-will-it-come-to-nigeria-wrapper{
+    width: 80%;
+    margin: auto;
+}
+.when-will-it-come-to-nigeria-content p{
+    color: #434343;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.how-fast-is-it{
+    width: 100%;
+    margin: 6rem 0;;
+    background: #EFE9E1;
+}
+
+.how-fast-is-it-wrapper{
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0;
+}
+.how-fast-is-it-content p{
+    color: #434343;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.how-fast-is-it-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3rem 0;
+}
+
+.how-does-it-work{
+    width: 100%;
+    margin: 4rem 0;;
+}
+
+.how-does-it-work-wrapper{
+    width: 80%;
+    margin: auto;
+}
+.how-does-it-work-content p{
+    color: #434343;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.how-does-it-work-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+@media (max-width: 820px) {
+    .how-does-lte-advanced-work-bottom {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 780px) {
+ .how-does-lte-advanced-work-bottom{
+    flex-direction: column;
+ }
+}
+
+@media (max-width: 500px) {
+    .what-is-lte-advanced-content p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .advanced-section-header h1 {
+        font-size: 30px;
+    }
+    .how-does-lte-advanced-work-content p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .when-will-it-come-to-nigeria-content p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .how-fast-is-it-content p,
+    .how-does-it-work-content p {
+        font-size: 18px;
+        line-height: 35px;
+
+    }
+}

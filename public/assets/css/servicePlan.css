@@ -1,0 +1,202 @@
+.service-plan-main{
+    margin: 8rem 0;
+    width: 100%;
+
+}
+
+.service-plan-main-wrapper{
+    width: 90%;
+    margin: auto;
+}
+
+.service-plan-main-wrapper .section-top h1{
+  font-size: 40px;
+}
+
+.service-plan-main-wrapper .section-top p{
+  font-size: 22px;
+}
+
+.data-bottom {
+    margin-top: 6rem;
+  }
+
+  .data-card {
+    border-radius: 10px;
+    border: 1px solid #D7D7D7;
+    background: rgba(148, 194, 90, 0.30);
+    box-shadow: 0px 0px 0px 0px rgba(204, 204, 204, 0.10), 0px 11px 23px 0px rgba(204, 204, 204, 0.10), 0px 42px 42px 0px rgba(204, 204, 204, 0.09), 0px 95px 57px 0px rgba(204, 204, 204, 0.05), 0px 169px 68px 0px rgba(204, 204, 204, 0.01), 0px 264px 74px 0px rgba(204, 204, 204, 0.00);    
+    width: 280px;
+    height: 280px;
+  }
+  
+  .data-card-wrapper {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height:100%;
+  }
+  
+  .data-card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+  }
+  .data-card-top, .data-card-bottom{
+    display: flex;
+    justify-content: center;
+  }
+  .data-card-center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .data-card-center-middle{
+    background: rgba(85, 15, 94, 0.30);;
+  }
+  
+
+  .data-card-header h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34.8px;
+  }
+  .data-card-header p {
+    color: #777;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  
+  /* .data-card-top-center {
+
+  } */
+  
+  .data-card-amount h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47.925px;
+  }
+  
+  .left-2 {
+    display: none;
+  }
+  
+  .data-card-amount p {
+    color: #777;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  
+  .data-card-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+  }
+  
+  .data-card-button button {
+    border-radius: 8px;
+    /* background: #E20088;   */
+    background: #7D2166;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 500px) {
+
+    .data-card-header h1 {
+      color: #000;
+      text-align: center;
+      font-family: "Lato";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 34.8px;
+    }
+    .data-card-header p {
+      color: #777;
+      text-align: center;
+      font-family: "Lato";
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 500;
+      line-height: 10px;
+    }
+
+    .data-card-amount h1 {
+      color: #000;
+      text-align: center;
+      font-family: "Lato";
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 47.925px;
+    }
+        
+    .data-card-amount p {
+      color: #777;
+      text-align: center;
+      font-family: "Lato";
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 500;
+      line-height: 10px;
+    }
+
+
+    .data-card-button button {
+      border-radius: 8px;
+      /* background: #E20088;   */
+      background: #7D2166;
+      padding: 1rem 2rem;
+      border: 1px solid transparent;
+      color: #fff;
+      text-align: center;
+      font-family: "Lato";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      cursor: pointer;
+    }
+
+    .service-plan-main-wrapper .section-top h1{
+      font-size: 30px;
+    }
+    
+    .service-plan-main-wrapper .section-top p{
+      font-size: 18px;
+    }
+  }
