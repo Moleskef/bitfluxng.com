@@ -790,8 +790,7 @@ width: 50px;
 
 }
 
-
-
+/* Team Section **/
 
 .team {
   display: flex;
@@ -841,4 +840,69 @@ width: 50px;
   font-size: 14px;
   margin: 10px 0;
 }
+
+.see-more-button {
+  background: #7D2166;
+  color: #ffffffe2;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.see-more-button:hover{
+  background-color: #B7DC7C;
+  color: #434343;
+
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: white;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-content h2{
+  font-size: 22px;
+  color: #7D2166;
+  font-weight: 700;
+  margin: 10px 0;
+  align-content: center;
+
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 
